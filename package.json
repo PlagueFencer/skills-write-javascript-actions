@@ -21,5 +21,9 @@
     "@actions/core": "^3.0.0",
     "@vercel/ncc": "^0.38.4",
     "request-promise": "^0.0.1"
+  },
+  "scripts": {
+   // Existing scripts...
+  "build": "ncc build src/main.js -o dist"
   }
 }
