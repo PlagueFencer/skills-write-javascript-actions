@@ -6,7 +6,7 @@ Maybe that’s because your task is a bit _too_ unique 😆
 
 **GENERATING DAD JOKES**! 🎭
 
-<img width="600" alt="dadjoke-mona" src="../images/dadjoke-mona.png" />
+<img width="600" alt="dadjoke-mona" src="https://github.com/PlagueFencer/skills-write-javascript-actions/blob/main/.github/images/dadjoke-mona.png?raw=true" />
 
 Since no pre-built action exists for your quirky automation needs, it's time to roll up your sleeves and create your own!
 
