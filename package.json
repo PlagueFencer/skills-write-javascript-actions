@@ -4,7 +4,8 @@
   "description": "<img src=\"https://octodex.github.com/images/Professortocat_v2.png\" align=\"right\" height=\"200px\" />",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build src/main.js -o dist"
   },
   "repository": {
     "type": "git",
@@ -20,10 +21,7 @@
   "dependencies": {
     "@actions/core": "^3.0.0",
     "@vercel/ncc": "^0.38.4",
+    "node-fetch": "^3.3.2",
     "request-promise": "^0.0.1"
-  },
-  "scripts": {
-   // Existing scripts...
-  "build": "ncc build src/main.js -o dist"
   }
 }
