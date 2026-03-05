@@ -29718,6 +29718,7 @@ const headers = {
 
 
 async function getJoke() {
+  // Always use the imported fetch, not global
   const res = await fetch(url, { method: "GET", headers });
   const data = await res.json();
   return data.joke;
